@@ -24,7 +24,7 @@ function NavBar() {
   return (
     <>
       {/* ---------------------Small Devices---------------------- */}
-      <div className="fixed md:hidden w-full flex justify-between px-4 py-2 shadow-2xl items-center bg-transparent backdrop-blur-[3px] ">
+      <div className="fixed md:hidden w-full flex justify-between px-4 py-2 shadow-md items-center ">
         <button onClick={NewBar_open} className="text-[#20bb2f] p-2 border-2 border-[#20bb2f] rounded-xl"><RiMenu2Line /></button>
         <span className="text-4xl font-bold text-[#20bb2f]">Logo</span>
         <div className="flex gap-2 ">
@@ -75,19 +75,19 @@ function NavBar() {
       {/* ---------------------Small Devices---------------------- */}
 
       {/* ----------------------Medium devices--------------------------- */}
-    <div className="p-4 hidden md:block">
+    <div className="p-4 hidden md:block shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <div className="text-4xl font-bold text-[#20bb2f]">Logo</div>
         </div>
         <div className="flex space-x-6">
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Home</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">About Us</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Courses</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Internship</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Contact Us</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Gallery</a>
-          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300">Blog</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500 ">Home</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">About Us</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">Courses</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">Internship</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">Contact Us</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">Gallery</a>
+          <a href="#" className="text-gray-800 hover:bg-gray-200 hover:text-gray-900 px-3 py-2 rounded-md transition duration-300 hover:border-b-2 hover:border-blue-500">Blog</a>
         </div>
       </div>
     </div>
